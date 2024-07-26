@@ -36,7 +36,7 @@ while camera.isOpened():
     V2 = cv2.getTrackbarPos("V2", "frame")
 
     lower = np.array([H1,S1,V1])       #H - S - V
-    upper = np.array([H2,S2,V2])     #H - S - V opencvde en fazla 180 derece
+    upper = np.array([H2,S2,V2])       #H - S - V 
     
     
 
